@@ -1,0 +1,17 @@
+{
+  "name": "css-grid",
+  "version": "1.0.0",
+  "description": "css grid site",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "run-script-os": "^1.0.2"
+  },
+  "scripts": {
+    "start": "run-script-os",
+    "start:win32": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 8888 --browser \"C:\\Program Files\\Firefox Developer Edition\\firefox.exe\""
+  },
+  "author": "Adesile Emmanuel",
+  "license": "ISC"
+}
